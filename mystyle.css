@@ -38,6 +38,19 @@ body, html {
 }
 
 
+.my-video {
+    width: 300px;  
+    height: auto;  
+    border-radius: 10px; 
+}
+
+.my-image {
+    width: 300px;  
+    height: auto;  
+    border-radius: 10px; 
+}
+
+
 .links {
     grid-area: links;
     background-color: #cfe3fc;
