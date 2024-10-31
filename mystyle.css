@@ -92,15 +92,5 @@ body, html {
 }
 
 
-@media screen and (max-width: 768px) {
-    .container {
-        grid-template-areas: 
-            "header"
-            "links"
-            "secondary-content"
-            "footer";
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
-}
+
 
