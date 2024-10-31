@@ -93,4 +93,42 @@ body, html {
 
 
 
+@media (max-width: 1024px) {
+    .header, .footer {
+        padding: 15px;
+    }
+
+    .links {
+        width: 100%;
+        float: none;
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .secondary-content {
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .header, .footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .links {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .secondary-content {
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
 
